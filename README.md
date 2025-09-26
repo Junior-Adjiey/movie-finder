@@ -1,30 +1,29 @@
-# 🎬 Movie Finder – Vue 3 + Vite
+# 🎬 Movie Finder – React + Vite
 
-Movie Finder est une application web moderne développée avec **Vue 3** et **Vite**. Elle permet de rechercher des films, séries ou jeux vidéo en temps réel grâce à une API (comme OMDB).
-
----
-
-## ⚙️ Technologies
-
-- [Vue 3](https://vuejs.org/) avec `<script setup>`
-- [Vite](https://vitejs.dev/) pour le bundling ultra-rapide
-- [OMDb API](https://www.omdbapi.com/) (ou autre) pour les données
-- CSS personnalisé / Tailwind (si utilisé)
-- Composants dynamiques, props, et gestion des états locaux
+Movie Finder est une application web développée avec **React** et **Vite**. Elle permet de rechercher des films, séries et jeux en temps réel grâce à l'API [OMDb](https://www.omdbapi.com/).
 
 ---
 
-## 📦 Installation & Lancement
+## ⚙️ Technologies utilisées
+
+- [React](https://reactjs.org/) (Hooks, composants fonctionnels)
+- [Vite](https://vitejs.dev/) – build rapide et moderne
+- [OMDb API](https://www.omdbapi.com/) – base de données des films
+- [CSS / Tailwind / Bootstrap] *(indique le framework si tu en as utilisé un)*
+
+---
+
+## 📦 Installation
 
 ```bash
-# Clone le dépôt
+# 1. Clone le dépôt
 git clone https://github.com/Junior-Adjiey/movie-finder.git
 
-# Va dans le dossier
+# 2. Va dans le dossier
 cd movie-finder
 
-# Installe les dépendances
+# 3. Installe les dépendances
 npm install
 
-# Lance le serveur de dev
+# 4. Démarre le projet
 npm run dev
