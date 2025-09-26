@@ -1,25 +1,39 @@
-# Movie Finder (TP3)
+# 🎬 Movie Finder – Vue 3 + Vite
 
-A minimal React app that searches OMDB, shows a list, and displays details. Includes favorites, pagination, filters, and theme toggle.
+Movie Finder est une application web moderne développée avec **Vue 3** et **Vite**. Elle permet de rechercher des films, séries ou jeux vidéo en temps réel grâce à une API (comme OMDB).
 
-## Setup
+---
 
-1. Clone the repo  
-2. Create `.env` from `.env.example` and put your key: VITE_OMDB_API_KEY=YOUR_REAL_KEY
-3. Install and run
+## 🚀 Aperçu
+
+> 🧠 Entrez un titre, filtrez par type (Film, Série, Épisode, Jeu) et découvrez les résultats en direct.  
+> L’application est simple, rapide et responsive.
+
+![screenshot](./assets/screenshot.png) <!-- Remplace par une vraie capture -->
+
+---
+
+## ⚙️ Technologies
+
+- [Vue 3](https://vuejs.org/) avec `<script setup>`
+- [Vite](https://vitejs.dev/) pour le bundling ultra-rapide
+- [OMDb API](https://www.omdbapi.com/) (ou autre) pour les données
+- CSS personnalisé / Tailwind (si utilisé)
+- Composants dynamiques, props, et gestion des états locaux
+
+---
+
+## 📦 Installation & Lancement
 
 ```bash
+# Clone le dépôt
+git clone https://github.com/Junior-Adjiey/movie-finder.git
+
+# Va dans le dossier
+cd movie-finder
+
+# Installe les dépendances
 npm install
-npm run dev
-```
-Scripts
-```bash
-npm run dev – start the Vite dev server
-npm run build – production build
-npm run preview – preview the build
-```
 
-Notes
-Do not commit your real API key.
-OMDB returns 10 results per page. Use the pagination controls to navigate.
-Favorites are stored in localStorage under the key favorites.
+# Lance le serveur de dev
+npm run dev
