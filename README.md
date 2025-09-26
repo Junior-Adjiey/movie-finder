@@ -4,15 +4,6 @@ Movie Finder est une application web moderne développée avec **Vue 3** et **Vi
 
 ---
 
-## 🚀 Aperçu
-
-> 🧠 Entrez un titre, filtrez par type (Film, Série, Épisode, Jeu) et découvrez les résultats en direct.  
-> L’application est simple, rapide et responsive.
-
-![screenshot](./assets/screenshot.png) <!-- Remplace par une vraie capture -->
-
----
-
 ## ⚙️ Technologies
 
 - [Vue 3](https://vuejs.org/) avec `<script setup>`
